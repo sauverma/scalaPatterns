@@ -1,0 +1,53 @@
+{
+  "clientIds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "clientRules": [
+    {
+      "clientId": 1,
+      "rules": [
+        {
+          "input": "attrInp1",
+          "output": "attrOut1",
+          "valueMap": [
+            {
+              "input": "range(18,19)",
+              "output": "18-19"
+            },
+            {
+              "input": "range(20,24)",
+              "output": "20-24"
+            },
+            {
+              "input": "range(25,34)",
+              "output": "25-34"
+            },
+            {
+              "input": "range(35,44)",
+              "output": "35-44"
+            },
+            {
+              "input": "range(45,54)",
+              "output": "45-54"
+            },
+            {
+              "input": "range(55,64)",
+              "output": "55-64"
+            },
+            {
+              "input": "range(65,100)",
+              "output": ">65"
+            },
+            {
+              "input": "default",
+              "output": "NULL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
